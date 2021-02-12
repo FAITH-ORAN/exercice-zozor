@@ -1,0 +1,156 @@
+/*Author:   Faiza Berrichi;
+    Date:     09/02/2020;
+    Version:  01.01;
+
+/*-------------------------------------------------------------*/
+/* GLOBAL */
+/*-------------------------------------------------------------*/
+@font-face {
+    font-family: 'day_romanregular';
+    src: url('polices/dayrom.woff') format('woff2'),
+         url('polices/dayrom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #fff9e5;
+    font-family:'day_romanregular' ;
+}
+a:hover{ color: red;
+	text-decoration: underline;
+ }
+ nav a { color: black;
+    text-decoration: none; 
+    font-size: 18px;
+}
+nav ul { list-style-type: none;
+    display: inline-flex;
+}
+
+.flex{
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.bannière{
+    width:100%;
+}
+.flex{
+    display:flex;
+    align-items:flex-end;
+}
+.styled{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.photo{
+    background-color: rgba(0, 0, 0, 0.281);
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    bottom:57px;
+    color:white;
+}
+.photo p{
+    padding-left: 20px;
+}
+.photo button{
+    margin-right: 20px;
+}
+
+.item3{
+    display:flex;
+    justify-content:flex-start ;
+    margin-left:30px;
+}
+.item10{
+  text-align: justify;
+  width: 60%;
+  margin-left:30px;
+}
+.flex4{
+    background-color: grey ;
+    width:25%;
+    border-radius:5%;
+    box-shadow:5px 5px 5px gray;
+    position: absolute;
+    left:850px;
+    top:450px;  
+}
+.item1{
+    display: flex;
+   flex-direction: column;
+  align-items: center;
+  text-align:justify;
+}
+.item2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex5{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.item4{
+    border:solid black;
+    border-radius: 3%;
+    width: 32%;
+    height:140px;
+    text-align:left;
+    box-shadow:2px 2px 2px black;
+}
+
+.item5{
+    border:solid black;
+    width:32%;
+     border-radius: 3%;
+     height:140px;
+     box-shadow:2px 2px 2px black;    
+}
+.item6{
+    border:solid black;
+    box-shadow:2px 2px 2px black;
+    width: 32%;
+    border-radius: 3%;
+    height:140px;
+    display:grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-rows: 10% 20% 20% 40% 10% ;
+    font-size: 11px;
+}
+.item5 img{
+    margin-left:15px;
+    border: solid black;
+}
+.item6 p{
+    padding-bottom:10px;
+}
+ /* j'ai créé un template grid pour ranger cette partie en colonne*/
+.item6 h3{
+    grid-column: 2 /3;
+}
+.grid1{
+    grid-column: 2 /3;
+    grid-row: 3 / 4;
+}
+.grid2{
+    grid-column: 3 /4;
+    grid-row:2 / 4;
+}
+.grid3{
+    grid-column: 4 /5;
+    grid-row:2 / 4;
+}
+footer a { color: rgb(138, 14, 14);
+    text-decoration: none; 
+}
+.item3 h2{
+    margin-left: 30px;
+}
+
+.item6 h3{
+    font-size: 16px;
+}
